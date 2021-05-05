@@ -1,0 +1,28 @@
+body{
+    background-color: #D1F2EB;
+  }
+  
+  .img::before{
+      content: "🌻";
+      position: absolute;
+      top: 40%;
+      left: 20%;
+      font-size: 60px;
+  }
+   img{
+   border-radius: 50%;
+   border: 10px solid #F1948A;
+   padding: 5px;
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   filter: contrast(60%) ;
+  }
+  
+  .img::after{
+      content: "🌻";
+      position: absolute;
+      top: 40%;
+      left: 60%;
+      font-size: 60px;
+  }
